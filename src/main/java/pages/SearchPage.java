@@ -15,9 +15,9 @@ public class SearchPage extends BasePage{
 		super(driver);
 		
 	}
-	public void searchBook() {
+	public void searchBook(String bookTitle) {
 		//driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("English Grammar for begineers");
-		searchBox.sendKeys("English Grammar for begineers");
+		searchBox.sendKeys(bookTitle);
 		searchBox.sendKeys(Keys.ENTER);
 	}
 

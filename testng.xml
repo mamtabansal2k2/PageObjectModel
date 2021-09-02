@@ -8,14 +8,22 @@
       <class name="testcases.LoginTest">
       	<methods>
       			<include name="loginTest" />
-      			<include name="checkoutBook" />
-      			
+      			     			
       	</methods>
       </class>
      	
      
     </classes>
   </test> <!-- Test -->
-  
+   <test  name="Sample Test ">
+ 
+    <classes>
+      <class name="testcases.SampleTest">
+      	
+      </class>
+     	
+     
+    </classes>
+  </test> <!-- Test -->
   
 </suite> <!-- Suite -->
